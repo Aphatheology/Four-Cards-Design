@@ -34,7 +34,8 @@ p {
     margin: 25px auto 50px;
     
     display: block;
-    
+    /* flex-direction: row;
+    justify-content: center; */
 
 }
 
@@ -96,10 +97,12 @@ p {
     .card {
         width: 350px;
         margin: 15px 20px;
+        overflow: hidden;
+        max-height: 300px;
 
     }
 
-    .red-card, .blue-card {
+    .ccard {
         position: relative;
         top: -150px;
     }
